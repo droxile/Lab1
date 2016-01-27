@@ -47,7 +47,7 @@ int main() {
     mb3 = mb2 = mb1;
     cout << mb3 << endl << endl;
 
-    system("pause");
+    //system("pause");
     return 0;
 }
 
