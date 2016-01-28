@@ -4,33 +4,44 @@
 
 using namespace std;
 
-template<class T> class MagicBag
+template<class T>
+class MagicBag
 {
+private:
+    <T> array;
 public:
 
-    MagicBag() {
+    MagicBag()
+    {
     }
 
-    MagicBag(const MagicBag& other) {
+    MagicBag(const MagicBag &other)
+    {
     }
 
-    MagicBag& operator=(const MagicBag& other) {
+    MagicBag &operator=(const MagicBag &other)
+    {
     }
 
-    ~MagicBag() {
+    ~MagicBag()
+    {
     }
 
-    void insert(T item) {
+    void insert(T item)
+    {
     }
 
-    T draw() {
+    T draw()
+    {
     }
 
-    int peek(T item) {
+    int peek(T item)
+    {
     }
 
 private:
 
-    friend ostream& operator<<(ostream& os, const MagicBag& mb) {
+    friend ostream &operator<<(ostream &os, const MagicBag &mb)
+    {
     }
 };
